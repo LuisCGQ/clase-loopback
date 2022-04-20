@@ -1,0 +1,10 @@
+CREATE TABLE company (
+	id SMALLSERIAL PRIMARY KEY,
+	name VARCHAR(25)
+);
+
+CREATE TABLE contact (
+	id SMALLSERIAL PRIMARY KEY,
+	name VARCHAR(25),
+	company_id SMALLINT REFERENCES company (id)
+);
