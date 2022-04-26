@@ -1,0 +1,49 @@
+{
+  "name": "Contact",
+  "plural": "Contacts",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number",
+      "required": true
+    },
+    "userId": {
+      "type": "number",
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "lastname": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "cellphone": {
+      "type": "number"
+    },
+    "phone": {
+      "type": "number",
+      "required": true
+    },
+    "adress": {
+      "type": "string"
+    },
+    "birthday": {
+      "type": "date"
+    },
+    "favorite": {
+      "type": "boolean"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
