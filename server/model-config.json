@@ -34,5 +34,9 @@
   "Role": {
     "dataSource": "postgresDB",
     "public": false
+  },
+  "Contact": {
+    "dataSource": "postgresDB",
+    "public": true
   }
 }
